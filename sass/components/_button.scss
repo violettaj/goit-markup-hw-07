@@ -6,24 +6,20 @@ font-size: 16px;
 line-height: 1.9;
 letter-spacing: 0.06em;
 cursor: pointer;
-background-color: #2196F3;
-color:#FFFFFF;
+background-color: getColor('decorations');
+color:getColor('secondary');
 border:none;
 border-radius: 4px;
 border:none;
 box-shadow: none;
 transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-}
 
-.button:hover {
+
+&:hover, &:focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.button:focus {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
-.button--newsletter { 
+&--newsletter { 
     display: flex;
     align-items: center;
     gap:24px;
@@ -32,9 +28,10 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
     
     }
 
-    .button--form{
+    &--form{
         margin-left:124px;
-       margin-top:30px;
-       
+       margin-top:30px; 
        margin-bottom:40px;
     }
+
+}

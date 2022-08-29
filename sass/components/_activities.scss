@@ -3,14 +3,14 @@
     flex-direction: row;
     gap: 30px;
     margin-top: 50px;
-}
 
-.activities__item {
+
+&__item {
     position:relative;
     height: 294px;
     width: 370;
 }
-.activities__label {
+&__label {
     position:absolute;
     bottom: 0;
     text-transform: uppercase;
@@ -25,4 +25,5 @@ height: 70px;
 color: getColor('secondary');
 padding-top: 27px;
 margin:0;
+}
 }

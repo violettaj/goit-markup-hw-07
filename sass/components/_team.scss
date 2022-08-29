@@ -2,7 +2,15 @@
     background-color: getColor('background');
 }
 
-.persons__name {
+.persons{
+    padding-left: 0px;
+    margin-left: 0px;
+display:flex;
+    flex-direction:row ;
+    gap:30px;
+ margin-top: 50px;
+
+ &__name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
@@ -11,29 +19,17 @@
     margin-bottom: 10px;
 }
 
-.persons__profession {
+&__profession {
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: getColor('descriptions');
     text-align: center;
     margin-bottom: 16px;
+
 }
 
-
-  
-
-
-.persons{
-    padding-left: 0px;
-    margin-left: 0px;
-display:flex;
-    flex-direction:row ;
-    gap:30px;
- margin-top: 50px;
-}
-
-.persons__items{
+&__items{
     width: 270px;
     height: 428px;
     background-color: getColor('secondary');
@@ -42,10 +38,10 @@ border-radius: 0px 0px 4px 4px;
 
 }
 
- .persons__images{
+ &__images{
     margin-bottom: 30px;
     object-fit:cover;
-   
-   
-    
+     
 }
+}
+

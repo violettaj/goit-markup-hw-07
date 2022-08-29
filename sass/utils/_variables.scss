@@ -10,8 +10,11 @@ $colors: (
     'icons':#AFB1B8,
     'borders':#EEEEEE,
     'bottom':#ECECEC,
-    
+    'shadows':#000000, 
 );
+
 @function getColor($key) {
     @return map-get($colors, $key);
   }
+
+ 

@@ -14,10 +14,10 @@ width:170px;
           fill: getColor('icons');
           cursor:pointer;
           transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-}
 
-.clients__icons:hover, .clients__icons:focus {
+
+&:hover, &:focus {
    fill:getColor('decorations');
    border-color:getColor('decorations');
 }
-
+}

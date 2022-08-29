@@ -1,22 +1,19 @@
 @import "./utils/variables";
 @import "./utils/visually-hidden";
 
-@import "./base/common";
-@import "./base/container";
-@import "./base/section";
-
+@import "./components/common";
+@import "./components/container";
+@import "./components/section";
 @import "./components/button";
 @import "./components/section__header";
 @import "./components/social-media";
 @import "./components/modal";
-
-@import "./layout/header";
-@import "./layout/main-section";
-@import "./layout/features";
-@import "./layout/activities";
-@import "./layout/team";
-@import "./layout/clients";
-@import "./layout/footer";
-
-@import "./layout/portfolio-filtres";
-@import "./layout/portfolio-cards";
+@import "./components/header";
+@import "./components/main-section";
+@import "./components/features";
+@import "./components/activities";
+@import "./components/team";
+@import "./components/clients";
+@import "./components/footer";
+@import "./components/portfolio-filtres";
+@import "./components/portfolio-cards";
