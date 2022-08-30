@@ -1,20 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
 
 $colors: (
-    'primary':#212121,
-    'decorations':#2196F3,
-    'secondary':#FFFFFF,
-    'descriptions':#757575,
-    'main':#2F303A,
-    'background':#F5F4FA,
-    'icons':#AFB1B8,
-    'borders':#EEEEEE,
-    'bottom':#ECECEC,
-    'shadows':#000000, 
+  "primary": #212121,
+  "decorations": #2196f3,
+  "secondary": #ffffff,
+  "descriptions": #757575,
+  "main": #2f303a,
+  "background": #f5f4fa,
+  "icons": #afb1b8,
+  "borders": #eeeeee,
+  "bottom": #ececec,
+  "shadows": #000000,
 );
 
 @function getColor($key) {
-    @return map-get($colors, $key);
-  }
-
- 
+  @return map-get($colors, $key);
+}
